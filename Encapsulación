@@ -1,0 +1,14 @@
+class Persona:
+    def __init__(self):
+        self.__nombre = ""
+
+    def set_nombre(self, nombre):
+        self.__nombre = nombre
+
+    def get_nombre(self):
+        return self.__nombre
+
+# Uso
+p = Persona()
+p.set_nombre("Ana")
+print(p.get_nombre())
