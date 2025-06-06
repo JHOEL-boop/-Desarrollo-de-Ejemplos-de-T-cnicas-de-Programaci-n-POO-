@@ -1,0 +1,17 @@
+class Figura:
+    def dibujar(self):
+        print("Dibujando figura")
+
+class Circulo(Figura):
+    def dibujar(self):
+        print("Dibujando círculo")
+
+class Cuadrado(Figura):
+    def dibujar(self):
+        print("Dibujando cuadrado")
+
+# Uso
+f1 = Circulo()
+f2 = Cuadrado()
+f1.dibujar()
+f2.dibujar()
