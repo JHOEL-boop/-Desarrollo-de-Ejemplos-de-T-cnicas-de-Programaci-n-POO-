@@ -1,0 +1,12 @@
+class Vehiculo:
+    def encender(self):
+        print("Vehículo encendido")
+
+class Auto(Vehiculo):
+    def tocar_bocina(self):
+        print("Beep beep")
+
+# Uso
+mi_auto = Auto()
+mi_auto.encender()
+mi_auto.tocar_bocina()
